@@ -1,6 +1,16 @@
 body {
-    background-color: blueviolet;
+    background-color: blanchedalmond;
 }
+
 h1 {
-    color: white;
+    color: #721175;
+}
+
+.form,
+.greetings {
+    display : none;
+}
+
+.showing {
+    display: block;
 }
