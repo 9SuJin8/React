@@ -5,10 +5,12 @@ body {
     display: block;
 }
 
-
-.greetings,
-.todo {
-    opacity: 0.8;
+.greetings {
+    color: ghostwhite;
+    opacity: 0.9;
+}
+.todo{
+    font-size: 30px;
 }
 
 .form,
@@ -24,7 +26,6 @@ body {
     text-align: center;
 }
 
-
 .weather{
     position: fixed;
     top: 0px;
@@ -38,6 +39,8 @@ body {
 }
 
 h1 {
+    background-color: black;
+    color: white;
     font-size: 150px;
     margin: auto;
 }
