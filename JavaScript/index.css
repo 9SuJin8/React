@@ -5,10 +5,45 @@ body {
     display: block;
 }
 
+input {
+    background: none;
+    appearance: none;
+    border: 0;
+    font-size: 30px;
+    border-bottom: 2px solid white;
+}
+
+
+input::placeholder {
+    color: white;
+}
+  
+input:focus,
+input:active {
+    outline: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+}
+  
+.button {
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: none;
+    border-color: transparent;
+    border: none;
+}
+
 .greetings {
     color: ghostwhite;
     opacity: 0.9;
 }
+
 .todo{
     font-size: 30px;
 }
@@ -30,7 +65,7 @@ body {
     position: fixed;
     top: 0px;
     right: 0px;
-    font-size: 25px;
+    font-size: 20px;
     opacity: 0.8;
     background-color: black;
 }
