@@ -40,14 +40,12 @@ function paintToDo(text){
     saveToDos();
 }
 
-
 function handleSubmit(event){
     event.preventDefault();
     const currentValue = toDoInput.value;
     paintToDo(currentValue);
     toDoInput.value = "";
 }
-
 
 function loadToDos() {
     const loadedToDos = localStorage.getItem(TODOS_LS);
@@ -61,12 +59,6 @@ function loadToDos() {
 
     }
 }
-
-
-
-
-
-
 
 function init() {
     loadToDos();
